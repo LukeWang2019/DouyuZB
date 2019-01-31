@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31A56312202CDAD00155BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A56302202CDAD00155BAC /* Main.storyboard */; };
+		A31A56342202CF8200155BAC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A56322202CF8200155BAC /* Home.storyboard */; };
+		A31A56372202CFA800155BAC /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A56352202CFA800155BAC /* Live.storyboard */; };
+		A31A563A2202CFC100155BAC /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A56382202CFC100155BAC /* Follow.storyboard */; };
+		A31A563D2202CFD500155BAC /* Profle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31A563B2202CFD500155BAC /* Profle.storyboard */; };
 		A31F1DF7220060AA00F11C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1DF6220060AA00F11C82 /* AppDelegate.swift */; };
-		A31F1DF9220060AA00F11C82 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1DF8220060AA00F11C82 /* MasterViewController.swift */; };
-		A31F1DFB220060AA00F11C82 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1DFA220060AA00F11C82 /* DetailViewController.swift */; };
-		A31F1DFE220060AA00F11C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31F1DFC220060AA00F11C82 /* Main.storyboard */; };
 		A31F1E00220060AB00F11C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31F1DFF220060AB00F11C82 /* Assets.xcassets */; };
-		A31F1E03220060AB00F11C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31F1E01220060AB00F11C82 /* LaunchScreen.storyboard */; };
 		A31F1E0E220060AB00F11C82 /* DouyuZbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1E0D220060AB00F11C82 /* DouyuZbTests.swift */; };
 		A31F1E19220060AB00F11C82 /* DouyuZbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31F1E18220060AB00F11C82 /* DouyuZbUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,13 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A31A56302202CDAD00155BAC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A31A56332202CF8200155BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZb/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		A31A56362202CFA800155BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZb/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		A31A56392202CFC100155BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZb/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		A31A563C2202CFD500155BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouyuZb/Base.lproj/Profle.storyboard; sourceTree = SOURCE_ROOT; };
 		A31F1DF3220060AA00F11C82 /* DouyuZb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuZb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31F1DF6220060AA00F11C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A31F1DF8220060AA00F11C82 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		A31F1DFA220060AA00F11C82 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		A31F1DFD220060AA00F11C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A31F1DFF220060AB00F11C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A31F1E02220060AB00F11C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31F1E04220060AB00F11C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31F1E09220060AB00F11C82 /* DouyuZbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouyuZbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31F1E0D220060AB00F11C82 /* DouyuZbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouyuZbTests.swift; sourceTree = "<group>"; };
@@ -99,12 +101,9 @@
 		A31F1DF5220060AA00F11C82 /* DouyuZb */ = {
 			isa = PBXGroup;
 			children = (
+				A31F1F292202CA2D00F11C82 /* Classes */,
 				A31F1DF6220060AA00F11C82 /* AppDelegate.swift */,
-				A31F1DF8220060AA00F11C82 /* MasterViewController.swift */,
-				A31F1DFA220060AA00F11C82 /* DetailViewController.swift */,
-				A31F1DFC220060AA00F11C82 /* Main.storyboard */,
 				A31F1DFF220060AB00F11C82 /* Assets.xcassets */,
-				A31F1E01220060AB00F11C82 /* LaunchScreen.storyboard */,
 				A31F1E04220060AB00F11C82 /* Info.plist */,
 			);
 			path = DouyuZb;
@@ -126,6 +125,66 @@
 				A31F1E1A220060AB00F11C82 /* Info.plist */,
 			);
 			path = DouyuZbUITests;
+			sourceTree = "<group>";
+		};
+		A31F1F292202CA2D00F11C82 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A31F1F2F2202CA5800F11C82 /* Main */,
+				A31F1F2A2202CA2D00F11C82 /* Home */,
+				A31F1F2E2202CA2D00F11C82 /* Live */,
+				A31F1F2C2202CA2D00F11C82 /* Follow */,
+				A31F1F2D2202CA2D00F11C82 /* Profile */,
+				A31F1F2B2202CA2D00F11C82 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A31F1F2A2202CA2D00F11C82 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A31A56322202CF8200155BAC /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A31F1F2B2202CA2D00F11C82 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A31F1F2C2202CA2D00F11C82 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				A31A56382202CFC100155BAC /* Follow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		A31F1F2D2202CA2D00F11C82 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A31A563B2202CFD500155BAC /* Profle.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A31F1F2E2202CA2D00F11C82 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				A31A56352202CFA800155BAC /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		A31F1F2F2202CA5800F11C82 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A31A56302202CDAD00155BAC /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +291,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31F1E03220060AB00F11C82 /* LaunchScreen.storyboard in Resources */,
+				A31A563A2202CFC100155BAC /* Follow.storyboard in Resources */,
+				A31A56342202CF8200155BAC /* Home.storyboard in Resources */,
+				A31A563D2202CFD500155BAC /* Profle.storyboard in Resources */,
+				A31A56312202CDAD00155BAC /* Main.storyboard in Resources */,
+				A31A56372202CFA800155BAC /* Live.storyboard in Resources */,
 				A31F1E00220060AB00F11C82 /* Assets.xcassets in Resources */,
-				A31F1DFE220060AA00F11C82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31F1DFB220060AA00F11C82 /* DetailViewController.swift in Sources */,
-				A31F1DF9220060AA00F11C82 /* MasterViewController.swift in Sources */,
 				A31F1DF7220060AA00F11C82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +357,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A31F1DFC220060AA00F11C82 /* Main.storyboard */ = {
+		A31A56322202CF8200155BAC /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A31F1DFD220060AA00F11C82 /* Base */,
+				A31A56332202CF8200155BAC /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
-		A31F1E01220060AB00F11C82 /* LaunchScreen.storyboard */ = {
+		A31A56352202CFA800155BAC /* Live.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A31F1E02220060AB00F11C82 /* Base */,
+				A31A56362202CFA800155BAC /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		A31A56382202CFC100155BAC /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31A56392202CFC100155BAC /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
+		A31A563B2202CFD500155BAC /* Profle.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A31A563C2202CFD500155BAC /* Base */,
+			);
+			name = Profle.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -436,8 +512,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7VX3W85WZ;
 				INFOPLIST_FILE = DouyuZb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luke.DouyuZb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,8 +532,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7VX3W85WZ;
 				INFOPLIST_FILE = DouyuZb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.luke.DouyuZb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
